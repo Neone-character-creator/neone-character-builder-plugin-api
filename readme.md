@@ -7,7 +7,7 @@ In addition, you must provide either a plugin.json or plugin.xml that describes 
 
 This repository contains example json and xml files you can replace with the information for the plugin.
 
-> {
+    {
     "description": {
       "creator": "Your name here",
       "game": "The name of the game system here",
@@ -18,7 +18,7 @@ This repository contains example json and xml files you can replace with the inf
       "description-view" : "path/to/plugin/descriptio/page.html",
       "pdf" : "path/to/character/sheet/form.pdf"
     }
-  }
+    }
 
 The description element identifies the plugin.
 
