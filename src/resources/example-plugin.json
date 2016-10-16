@@ -1,0 +1,12 @@
+{
+  "description": {
+    "creator": "Your name here",
+    "game": "The name of the game system here",
+    "version": "Plugin version here"
+  },
+  "resources" : {
+    "character-view" : "path/to/character/sheet.html",
+    "description-view" : "path/to/plugin/descriptio/page.html",
+    "pdf" : "path/to/character/sheet/form.pdf"
+  }
+}
