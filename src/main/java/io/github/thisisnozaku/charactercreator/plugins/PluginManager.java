@@ -17,4 +17,6 @@ public interface PluginManager<T extends GamePlugin<? extends Character>>{
     Optional<T> getPlugin(PluginDescription pluginDescription);
 
     Optional<URI> getPluginResource(PluginDescription incomingPluginDescription, String resourceName);
+
+    Optional<URI> getPluginArchive(PluginDescription pluginDescription);
 }
