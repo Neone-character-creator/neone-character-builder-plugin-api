@@ -1,4 +1,4 @@
-###NEOne Character Creator Plugin Api
+### NEOne Character Creator Plugin Api
 This project is the API for game plugins for the NEOne Character Creator.
 
 To create a plugin, provide a class that extends GamePlugin. This lets the OSGI framework know that your plugin is a game plugin.
@@ -26,3 +26,12 @@ Resources indicates paths to the various resource files inside the plugin bundle
 "character-view" is the html file first displayed when creating a new character or loading an existing one.
 "description-view" contains the html of plugin information to display to the user.
 "pdf" is the form pdf that will be filled when exporting.
+
+#### Publishing to maven local
+To make artifacts available to the NEOne Character Creator, you can publish your plugin to the local maven repository by running:
+
+```bash
+./gradlew publishToMavenLocal
+```
+
+Now the project will be able to find your plugin in the local maven repository.
